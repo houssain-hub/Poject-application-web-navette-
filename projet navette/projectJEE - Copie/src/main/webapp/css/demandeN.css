@@ -1,0 +1,48 @@
+@charset "UTF-8";
+  *{
+	background-image: url('../images/zlij.jpg'); /* Chemin relatif à votre fichier CSS */
+    background-size: cover; /* Adapte l'image à l'écran */
+    background-repeat: no-repeat; /* Évite la répétition de l'image */
+    background-position: center; /* Centre l'image */
+    background-attachment: fixed;
+    height: 100vh; /* S'assure que l'arrière-plan couvre toute la hauteur */
+    margin: 0; /* Supprime les marges par défaut */
+	font-family: 'Roboto', sans-serif; /* Police principale */
+    font-size: 16px; /* Taille du texte */
+    line-height: 1.6; /* Hauteur des lignes */
+    }
+  
+   form {
+            max-width: 600px;
+            margin: auto;
+            background: white ;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        input, select, textarea, button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            background-color:#408080;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: rgb(64, 128, 128);
+        }
+        h2 {
+            color:black;
+            text-align: center;
+            margin-bottom: 20px;
+        }

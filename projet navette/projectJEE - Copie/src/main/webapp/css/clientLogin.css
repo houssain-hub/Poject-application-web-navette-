@@ -1,0 +1,69 @@
+@charset "UTF-8";
+    body{
+	background-image: url('../images/bgs.jpg'); /* Chemin relatif à votre fichier CSS */
+    background-size: cover; /* Adapte l'image à l'écran */
+    background-repeat: repeat-y; /* Évite la répétition de l'image */
+    background-position: center; /* Centre l'image */
+    background-attachment: fixed;
+    height: 100vh; /* S'assure que l'arrière-plan couvre toute la hauteur */
+    margin: 0; /* Supprime les marges par défaut */
+	font-family: Courier, monospace; /* Police principale */
+    font-size: 16px; /* Taille du texte */
+    line-height: 1.6; /* Hauteur des lignes */
+    }
+   nav{box-shadow: 0 0 10px black;}
+   .formu {
+            max-width: 600px;
+            margin: auto;
+            background: white ;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 7px black;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        input, select{
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 15px;
+            
+        }
+        button {
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 13px;
+            border-radius: 15px;
+            
+            background-color:#EB5A3C;
+            color: black;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color:white;
+            color:balck;
+        }
+        h2 {
+            color:black;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h3 {
+            color:black;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        p{
+        color:red;
+        text-align: center;
+        margin-bottom: 20px;
+        }
+        .logo{
+	color: #EB5A3C;
+}

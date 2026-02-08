@@ -1,0 +1,101 @@
+@charset "UTF-8";
+  body{
+    background-image: url('../images/zlij.jpg'); /* Chemin relatif à votre fichier CSS */
+    background-size: cover; /* Adapte l'image à l'écran */
+    background-repeat: no-repeat; /* Évite la répétition de l'image */
+    background-attachment: fixed;
+    background-position: center; /* Centre l'image */
+    height: 100vh; /* S'assure que l'arrière-plan couvre toute la hauteur */
+    margin: 0; /* Supprime les marges par défaut */
+	font-family: Courier, monospace; /* Police principale */
+    font-size: 16px; /* Taille du texte */
+    line-height: 1.6; /* Hauteur des lignes */
+    }
+h1,h2 {
+    color:black;
+    text-align: center;
+}
+.divback{background-color:alice-blue;
+	
+}
+nav{
+	box-shadow: 0 0 10px black;
+}
+#button{
+	max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    
+}
+#button:hover{
+	background-color:white;
+	color:black;
+}
+.logo{
+	color: #EB5A3C;
+}
+img{
+	max-width: 600px;
+    margin: auto;
+}
+.card{
+	 box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+}
+/* 🖼️ Ajustement de la taille des images */
+.carousel-img {
+    height: 500px; /* Taille fixe */
+    object-fit: cover; /* Évite les déformations */
+}
+
+/* 🌟 Effet de texte sur les captions */
+.text-shadow {
+    background: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+    padding: 10px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+/* 🎭 Icônes des boutons de navigation */
+.custom-carousel-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+}
+.custom-carousel-icon:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/* Fade-in animation */
+/* Define the fade-in animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px); /* Start off-screen */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* End at normal position */
+    }
+}
+
+/* Initially hide the elements */
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s ease-in-out;
+}
+
+/* Class to trigger the animation */
+.visible {
+    opacity: 1;
+    visibility: visible;
+    animation: fadeIn 1s ease-out forwards;
+}
+
+.h1{
+	box-shadow:10px 10px 20px black;
+}

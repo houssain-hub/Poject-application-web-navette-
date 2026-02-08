@@ -1,0 +1,45 @@
+@charset "UTF-8";
+ body{
+	background-image: url('../images/bgs.jpg'); /* Chemin relatif à votre fichier CSS */
+    background-size: cover; /* Adapte l'image à l'écran */
+    background-repeat: repeat; /* Évite la répétition de l'image */
+    background-position: center; /* Centre l'image */
+    height: 100vh; /* S'assure que l'arrière-plan couvre toute la hauteur */
+    margin: 0; /* Supprime les marges par défaut */
+	
+    line-height: 1.6; /* Hauteur des lignes */
+    font-family: Courier, monospace;
+    }
+    nav{
+    box-shadow: 0 0 10px black;
+    }
+h1,h2 {
+    color:white;
+    text-align: center;
+}
+.logo{
+	font-size:30px;
+	color:rgb(80, 0, 115);
+}
+h5{
+color:red;	
+}
+table{
+	       max-width: 600px;
+            margin: auto;
+            background: white ;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 6px black;
+}
+.navbar-toggler{
+	background-color:rgb(80, 0, 115);
+}
+.card{
+            max-width: 600px;
+            margin: auto;
+            background: white ;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 6px black;
+        }

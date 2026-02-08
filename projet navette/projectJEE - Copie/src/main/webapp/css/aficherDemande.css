@@ -1,0 +1,42 @@
+@charset "UTF-8";
+table{
+	       max-width: 600px;
+            margin: auto;
+            background: white ;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+body{
+	background-image: url('../images/Home.png'); /* Chemin relatif à votre fichier CSS */
+    background-size: cover; /* Adapte l'image à l'écran */
+    background-repeat: no-repeat; /* Évite la répétition de l'image */
+    background-position: center; /* Centre l'image */
+    height: 100vh; /* S'assure que l'arrière-plan couvre toute la hauteur */
+    margin: 0; /* Supprime les marges par défaut */
+	font-family: Courier, monospace; /* Police principale */
+    font-size: 16px; /* Taille du texte */
+    line-height: 1.6; /* Hauteur des lignes */
+    }
+
+a{
+	color:white;
+}
+
+#button{
+	padding:10px;
+	margin:10PX;
+	width:400px;
+	 display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo{
+	color:purple;
+}
+h2{
+	text-align: center;
+    margin-bottom: 20px;
+}

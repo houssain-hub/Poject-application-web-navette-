@@ -1,0 +1,35 @@
+@charset "UTF-8";
+body{
+	background-image: url('../images/zlij.jpg'); /* Chemin relatif à votre fichier CSS */
+    background-size: cover; /* Adapte l'image à l'écran */
+    background-repeat: repeat-y; /* Évite la répétition de l'image */
+    background-position: center; /* Centre l'image */
+    height: 100vh; /* S'assure que l'arrière-plan couvre toute la hauteur */
+    margin: 0; /* Supprime les marges par défaut */
+   
+	font-family: Courier, monospace; /* Police principale */
+    font-size: 16px; /* Taille du texte */
+    line-height: 1.6; /* Hauteur des lignes */
+    }
+
+   
+
+
+ .card{     
+     background-image: url('../images/back.svg');  /* Blanc semi-transparent */
+      backdrop-filter: blur(10px); /* Optionnel : Effet de flou derrière */
+      border-radius:20px;
+            max-width: 600px;
+            margin: auto;
+            background: white ;
+            padding: 20px;
+            
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+.btn{
+	background-color: rgb(128, 0, 255);
+	color:white;
+}
+.btn:hover{
+	background-color: white;
+}
